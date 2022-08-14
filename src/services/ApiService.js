@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://serene-reef-80586.herokuapp.com';
 
 /* GET request URLs*/
 const COVID_TRACKER_API_URL = `${BASE_URL}/covid-api/in`;
