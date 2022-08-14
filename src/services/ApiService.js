@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://serene-reef-80586.herokuapp.com';
+const BASE_URL = 'https://medway-backend.herokuapp.com/';
 
 /* GET request URLs*/
 const COVID_TRACKER_API_URL = `${BASE_URL}/covid-api/in`;
