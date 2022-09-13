@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Medway
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Medway is a **Health Management System** that manages individuals' medical histories on a centralised platform, allowing doctors and patients to examine their medical history for future reference.
 
-## Available Scripts
+Users can quickly examine their medical information as well as other information such as the Covid-19 tracker, which highlights the current situation in India regarding covid spread. The user interface, built in *React* Bootstrap, authenticates by email, and data is loaded over *RESTful APIs*. Spring Boot is accessed securely by UI. In the backend, *JAVA* is utilised to fetch and process data, and *Postgres* is used as the database.
 
-In the project directory, you can run:
 
-### `npm start`
+# Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- ReactJS + 3rd party libraries 
+- Spring Boot + Spring Data JPA
+- HTML, CSS, Bootstrap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Video Walkthrough
 
-### `npm test`
+https://user-images.githubusercontent.com/50198727/189936559-70cff42a-b81e-4dc8-8154-42303fa7f344.mov
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Images 
 
-### `npm run build`
+![Screenshot 2022-08-31 at 1 28 42 PM](https://user-images.githubusercontent.com/50198727/189937380-02020180-a26b-42a2-82c6-58eb9e38d607.png)
+![Screenshot 2022-08-31 at 1 28 52 PM](https://user-images.githubusercontent.com/50198727/189937424-55ea3aeb-8ffb-48c0-90fd-e11f22a00ec8.png)
+![Screenshot 2022-08-31 at 1 29 06 PM](https://user-images.githubusercontent.com/50198727/189937432-5b2f3050-e7f1-40e2-97c8-dc3f916f3ca8.png)
+![Screenshot 2022-08-31 at 1 29 26 PM](https://user-images.githubusercontent.com/50198727/189937435-f2b18cb8-673d-4a55-99e2-7babdb26b7cb.png)
+![Screenshot 2022-08-31 at 1 29 36 PM](https://user-images.githubusercontent.com/50198727/189937439-6db8850a-40c9-4982-b045-ac2440846c1b.png)
+![Screenshot 2022-08-31 at 1 29 51 PM](https://user-images.githubusercontent.com/50198727/189937448-6d3c5d90-a2b0-4a5d-9660-108172c61684.png)
+![Screenshot 2022-08-31 at 1 29 58 PM](https://user-images.githubusercontent.com/50198727/189937454-5ae60b91-31cf-46aa-94c6-f3408170c54c.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Steps to run it in your local machine
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Ensure that the PostgreSQL server is installed on your computer. DBeaver is my personal recommendation.
+2. npm start the react project.
+3. In IntelliJ IDE, right-click and select Run as Spring Boot application.
